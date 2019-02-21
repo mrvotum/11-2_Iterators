@@ -1,0 +1,40 @@
+{
+  "name": "11-2_Iterators",
+  "version": "1.0.0",
+  "description": "11_lesson 2_task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "live-server src",
+    "build": "babel src -d dist",
+    "doc": "jsdoc -c jsdoc.conf.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrvotum/11-2_Iterators.git"
+  },
+  "keywords": [
+    "Netology"
+  ],
+  "author": "Vladimir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrvotum/11-2_Iterators/issues"
+  },
+  "homepage": "https://github.com/mrvotum/11-2_Iterators#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.1.0",
+    "jsdoc": "^3.5.5",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5"
+  }
+}
