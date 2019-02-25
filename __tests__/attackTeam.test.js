@@ -1,6 +1,6 @@
 import AttackedTeam from '../src/js/attackTeam';
 
-test('Two payers in the team', () => {
+test('Last player is the most dangerous', () => {
   const playerOne = {
     name: 'Лучник-1',
     type: 'Bowman',
